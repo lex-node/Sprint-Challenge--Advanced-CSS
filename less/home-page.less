@@ -63,14 +63,18 @@
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
     .centering-flexbox;
-    @media @mobile{
+
+    @media @mobile {
+      width: 100%;
+      padding: 0px;
       flex-direction: column-reverse;
       border-top: none;
     }
 
     .walk-text {
       width: 50%;
-      @media @mobile{
+
+      @media @mobile {
         width: 100%;
       }
 
@@ -96,7 +100,8 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      @media @mobile{
+
+      @media @mobile {
         width: 100%;
       }
       
