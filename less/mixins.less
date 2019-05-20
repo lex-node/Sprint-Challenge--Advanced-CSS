@@ -1,1 +1,23 @@
 // Mixins Here
+
+//LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+
+
+.bottom-button(@button-color, @button-width) {
+  display: block;
+  background-color: @button-color;
+  margin: 0 10px 20px;
+  padding: 3px 5px;
+  cursor: pointer;
+  width: @button-width;
+  height: auto;
+  font-size: 2rem;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.centering-flexbox {
+display: flex;
+justify-content: center;
+}

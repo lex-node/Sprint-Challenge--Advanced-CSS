@@ -1,3 +1,7 @@
+.centering-flexbox {
+  display: flex;
+  justify-content: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -165,22 +169,22 @@ p {
 }
 nav.row {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
 }
 h1 {
   text-align: center;
 }
 nav {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
 a {
   text-decoration: none;
   font-size: 1.6rem;
+  margin: 10px 10px;
 }
 footer {
   color: #22283B;
@@ -233,6 +237,18 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: block;
+  background-color: #22283A;
+  margin: 0 10px 20px;
+  padding: 3px 5px;
+  cursor: pointer;
+  width: 100px;
+  height: auto;
+  font-size: 2rem;
+  color: white;
+  border-radius: 10px;
 }
 .home .walk .walk-img {
   width: 46%;
