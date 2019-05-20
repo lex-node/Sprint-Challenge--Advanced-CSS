@@ -117,7 +117,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [X]  Use at least 2 parameters to create your button
 
-* [ ] Create a hover state that swaps the background color and font color of the base button styles.
+* [X] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 

@@ -250,6 +250,10 @@ footer {
   color: white;
   border-radius: 10px;
 }
+.home .walk .walk-text button:hover {
+  background-color: chartreuse;
+  color: black;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
